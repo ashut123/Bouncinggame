@@ -1,0 +1,79 @@
+/* Header Styles */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+}
+nav {
+	display: flex;
+	justify-content: flex-end;
+}
+nav ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	margin: 0 10px;
+}
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Hero Section Styles */
+#hero {
+	position: relative;
+}
+#hero img {
+	width: 100%;
+}
+#cta {
+	background-color: #333;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	font-size: 24px;
+	padding: 10px 20px;
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+}
+
+/* About Section Styles */
+#about {
+	background-color: #eee;
+	padding: 50px;
+}
+#about h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+/* Contact Section Styles */
+#contact {
+	background-color: #fff;
+	padding: 50px;
+}
+#contact h2 {
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+input, textarea {
+	display: block;
+	margin-bottom: 20px;
+	width: 100%;
+}
+button[type="submit"] {
+	background-color: #333;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	font-size: 24px;
+	padding: 10px 20px;
+}
